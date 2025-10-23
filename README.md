@@ -20,8 +20,6 @@ Antes de iniciar, você precisa ter instalado em sua máquina:
 
 instale as dependências e execute o projeto localmente:  
 
----
-
 ###  **Como rodar o aplicativo**
 
 1. **Clone o repositório**
