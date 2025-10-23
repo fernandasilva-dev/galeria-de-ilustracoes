@@ -6,8 +6,7 @@ export default function Perfil({ temaEscuro }) {
     <View style={[styles.perfilContainer, temaEscuro && styles.perfilContainerDark]}>
       <Image
         source={require('../assets/images/perfil1.png')}
-        style={styles.perfilImagem}
-      />
+        style={styles.perfilImagem} />
       <Text style={[styles.perfilNome, temaEscuro && styles.perfilNomeDark]}>
         Maria Fernanda da Silva
       </Text>
