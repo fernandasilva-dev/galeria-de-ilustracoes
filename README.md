@@ -23,21 +23,21 @@ instale as dependências e execute o projeto localmente:
 
 No terminal:  
     1- Clone o repositório  
-        ```bash
+        ```bash  
             git clone https://github.com/fernandasilva-dev/galeria-de-ilustracoes.git  
-        ```
+        ```  
     2- Acesse a pasta do projeto  
-        ```bash
+        ```bash     
             cd galeria-ilustracoes  
-        ```
+        ```  
     3- Instale as dependências  
-        ```bash
+        ```bash    
             npm install  
-        ```
+        ```  
     4- Execute o aplicativo  
-        ```bash
+        ```bash    
             npx expo start  
-        ```
+        ```  
     5- Abrindo no celular  
         - Escanei o QR code com o Expo go Android/ IOS  
         - Ou pessione 'a' no terminal para abrir o emulador android se o tiver instalado em sua máquina  
