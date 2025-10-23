@@ -21,11 +21,11 @@ Antes de iniciar, você precisa ter instalado em sua máquina:
 instale as dependências e execute o projeto localmente:  
 
 No terminal:  
-  Aqui está o texto **totalmente corrigido e pronto para colar no seu README**, com a sintaxe Markdown correta 👇
+  Aqui está o texto **totalmente corrigido e pronto para colar no seu README**, com a sintaxe Markdown correta 
 
 ---
 
-### 🚀 **Como rodar o aplicativo**
+###  **Como rodar o aplicativo**
 
 1. **Clone o repositório**
 
