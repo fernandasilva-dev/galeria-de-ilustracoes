@@ -1,10 +1,13 @@
-import { ScrollView, View } from 'react-native';
+import { useState } from 'react';
+import { ScrollView, View, Button } from 'react-native';
 import Header from './components/Header.js';
 import Perfil from './components/Perfil.js';
 import Galeria from './components/Galeria.js';
 import { styles } from './styles/main.js';
 
 export default function App() {
+  const [temaEscuro, setTemaEscuro] = useState(false);
+
   const ilustracoes = [
     {
       id: 1,
@@ -37,10 +40,17 @@ export default function App() {
   ];
 
   return (
-    <ScrollView style={styles.container}>
-      <Header />
-      <Perfil />
-      <Galeria ilustracoes={ilustracoes} />
+    <ScrollView style={[styles.container, temaEscuro && styles.containerDark]}>
+      <View style={{ paddingVertical: 20 }}>
+        <Button
+          title={temaEscuro ? 'Ir para Modo Claro' : 'Ir para Modo Escuro'}
+          onPress={() => setTemaEscuro(!temaEscuro)}
+        />
+      </View>
+
+      <Header temaEscuro={temaEscuro} />
+      <Perfil temaEscuro={temaEscuro} />
+      <Galeria ilustracoes={ilustracoes} temaEscuro={temaEscuro} />
     </ScrollView>
   );
 }

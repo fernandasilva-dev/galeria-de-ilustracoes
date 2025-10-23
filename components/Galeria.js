@@ -1,7 +1,7 @@
 import { View } from 'react-native';
 import CardIlustracao from '../components/CardIlustracao.js';
 
-export default function Galeria({ ilustracoes }) {
+export default function Galeria({ ilustracoes, temaEscuro }) {
   return (
     <View>
       {ilustracoes.map((item) => (
@@ -11,6 +11,7 @@ export default function Galeria({ ilustracoes }) {
           titulo={item.titulo}
           descricao={item.descricao}
           data={item.data}
+          temaEscuro={temaEscuro}
         />
       ))}
     </View>
